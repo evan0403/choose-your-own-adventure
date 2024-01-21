@@ -1,0 +1,147 @@
+body {
+    font-family: 'Pokemon Hollow', cursive;
+    background-color: #fdfd96;
+    color: #000000;
+    margin: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD700;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Different text colors for each Pokémon */
+/* Green for Bulbasaur */
+a[href="bulbasaur.html"] {
+    color: #4CAF50; 
+    
+}
+a[href="bulbasaur.html"]:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+a[href="bulbasaur_forest.html"]{
+    color: #4CAF50; 
+}
+a[href="bulbasaur_forest.html"]:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+a[href="bulbasaur_gym.html"]{
+    color: #4CAF50; 
+}
+
+a[href="bulbasaur_gym.html"]:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+a[href="catch_caterpie.html"]{
+    color: #4CAF50; 
+}
+
+a[href="continue_path.html"]{
+    color: #4CAF50; 
+}
+
+/* Orange-Red for Charmander */
+a[href="charmander.html"] {
+    color: #FF4500; 
+}
+
+a[href="charmander.html"]:hover {
+    background-color: #FF4500;
+    color: #fff;
+}
+
+a[href="charmander_mountains.html"]{
+    color: #FF4500; 
+}
+
+a[href="charmander_mountains.html"]:hover {
+    background-color: #FF4500;
+    color: #fff;
+}
+a[href="charmander_gym.html"]{
+    color: #FF4500; 
+}
+a[href="charmander_gym.html"]:hover {
+    background-color: #FF4500;
+    color: #fff;
+}
+
+a[href="catch_magmar.html"]{
+    color: #FF4500; 
+}
+
+a[href="continue_path.html"]{
+    color: #FF4500; 
+}
+
+a[href="battle_flareon.html"]{
+    color: #FF4500; 
+}
+
+a[href="continue_path.html"]{
+    color: #FF4500; 
+}
+
+/* Blue for Squirtle */
+a[href="squirtle.html"] {
+    color: #0000FF; 
+}
+
+a[href="squirtle.html"]:hover {a
+    background-color: #0000FF;
+    color: #fff;
+}
+
+a[href="squirtle_ocean.html"]{
+    color: #0000FF; 
+}
+a[href="squirtle_ocean.html"]:hover {
+    background-color: #0000FF;
+    color: #fff;
+}
+
+a[href="squirtle_gym.html"]{
+    color: #0000FF; 
+}
+
+a[href="squirtle_gym.html"]:hover {
+    background-color: #0000FF;
+    color: #fff;
+}
+a[href="catch_squirtle.html"]{
+    color: #0000FF; 
+}
+a[href="continue_path.html"]{
+    color: #000000; 
+}
+a[href="battle_vaporeon.html"]{
+    color: #0000FF; 
+}
+}
